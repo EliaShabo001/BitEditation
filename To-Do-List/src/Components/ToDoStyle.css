@@ -1,0 +1,31 @@
+.card-hover {
+  background-color: #fff;
+  transition: all 0.3s ease-in-out; /* Apply transition here */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card-hover:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.check-icon:hover{
+    background-color: #c5c5c5 !important;
+    transition: all 0.2s ease-in-out !important; 
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+.check-icon-instead:hover{
+  transition: all 0.2s ease-in-out !important; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+  background-color: green;
+}
+.card:hover{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: all 0.3s ease-in-out; /* Apply transition here */
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
